@@ -1,8 +1,8 @@
 /**
  * Logs "Hello World!!!" to the console.
  */
-function sayHello() {
-  console.log("Hello World!!!");
+function sayHello(name) {
+  console.log(`Hello ${name}!!!`);
 }
 
-sayHello();
+sayHello("n8n");
