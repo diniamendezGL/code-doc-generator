@@ -1,4 +1,7 @@
 class Employee {
+    /**
+     * Represents an employee with a name, role, and years at the company.
+     */
     name: string;
     role: string;
     yearsAtGorilla: number;
@@ -10,6 +13,11 @@ class Employee {
     }
 }
 
+/**
+ * Prints the details of an employee.
+ * @param {Employee} employee - The employee object to print details for.
+ * @returns {void}
+ */
 function printEmployeeDetails(employee: Employee): void {
     console.log(`Name: ${employee.name}`);
     console.log(`Role: ${employee.role}`);
